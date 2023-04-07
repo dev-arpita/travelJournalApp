@@ -31,7 +31,8 @@ body {
 
 .nav--title {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  letter-spacing: -0.075rem;
 }
 
 .nav-logo {

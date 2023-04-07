@@ -3,6 +3,7 @@ import React from "react"
 export default function Card({item}) {
         console.log(item)
     return(
+        <>
         <div className="card">
                 <img src={item.imageUrl} />
             <div className="card--details">
@@ -19,6 +20,8 @@ export default function Card({item}) {
                 <p className="card--description">{item.description}</p>
             </div>
         </div>
+           <div className="divider"></div>
+        </>
     )
 
 }

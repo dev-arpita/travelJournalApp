@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2B283A;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: #F55A5A;
+  color: #fff;
+}
+
+.nav--title {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #DADADA;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card--location_dot {
+  color: #F55A5A;
+  margin-right: 2px;
+  font-size: 0.9rem;
+}
+
+.location {
+  text-transform: uppercase;
+  margin-right: 1rem;
+  letter-spacing: 0.17rem;
+}
+
+.card a {
+  color: #918E9B;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration-line: underline;
+  color: #7393B3;
+}
+
+.card--title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.7rem 0 1rem;
+}
+
+.card--description {
+  Line-height: 150%;
+}
+
+
+.date {
+  font-weight: 600;
+}
+
+img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 0;
+}
+
+.map-section {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+
